@@ -7,6 +7,7 @@
 1. Download Corpus
     - Berlin emotional speech database (Emo-DB)
     URL : http://www.emodb.bilderbar.info/download/
+          http://emodb.bilderbar.info/docu/
     音檔位置 : D:\EmoDB\wav
     
 2. Feature Extraction
