@@ -31,7 +31,7 @@
 5. Command Line
    切換到 HW2 目錄 -  cd D:\HW2
    
-6. 編輯 python 檔 ( python 檔位置在 D:\HW2 ) ，擷取最後一行的資料
+6. 編輯 python 檔 ( python 檔位置在 D:\HW2 ，test.py 也在相同的目錄 ) ，擷取最後一行的資料
 
 
 ## Learned
