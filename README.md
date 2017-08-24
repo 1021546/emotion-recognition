@@ -27,3 +27,7 @@
    - SMILExtract_Release -C  D:\Opensmile\config\IS09_emotion.conf  -I D:\EmoDB\wav\03a05Aa.wav -O D:\HW2\03a05Aa.txt
      pause
      (對許多音檔)
+
+
+## Learned
+1. windows command 移除檔案 - del *.txt
