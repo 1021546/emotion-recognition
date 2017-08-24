@@ -21,12 +21,14 @@
    
 4. 編輯 bat 檔 ，把音檔轉成文字檔 ，bat 檔和音檔在同一個目錄 (test.bat 也在相同的目錄)
    bat 檔的內容
-   - SMILExtract_Release -C  D:\Opensmile\config\IS09_emotion.conf  -I D:\EmoDB\wav\03a05Aa.wav -O D:\HW2\03a05Aa.txt
-     pause
-     (對單一音檔)
-   - SMILExtract_Release -C  D:\Opensmile\config\IS09_emotion.conf  -I D:\EmoDB\wav\03a05Aa.wav -O D:\HW2\03a05Aa.txt
-     pause
-     (對許多音檔)
+   - (對單一音檔)
+     D:\Opensmile\bin\Win32\SMILExtract_Release -C D:\Opensmile\config\IS09_emotion.conf -I D:\EmoDB\wav\03a05Aa.wav -O D:\HW2\03a05Aa.txt
+   
+     pause
+     
+   - (對許多音檔) opensmile.bat
+   
+5. 編輯 python 檔
 
 
 ## Learned
