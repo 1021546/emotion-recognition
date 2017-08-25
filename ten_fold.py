@@ -3,7 +3,7 @@ import os
 import types
 # import string
 
-file_data = ["", "", "", "", "", "", "", "", "", ""]
+#file_data = ["", "", "", "", "", "", "", "", "", ""]
 
 def getEmotion(x):
 	# 'W' => anger, 'L' => boredom, 'E' => disgust, 'A' => anxiety/fear, 'F' => happiness, 'T' => sadness, 'N' => neutral version
