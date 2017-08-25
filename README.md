@@ -15,6 +15,7 @@
     URL : http://audeering.com/technology/opensmile/#download
     SMILExtract_Release.exe 位置 : D:\Opensmile\bin\Win32
     IS09_emotion.conf 位置 : D:\Opensmile\config
+    如果執行時，顯示缺少 dll 檔，那把 msvcp100.dll 和 msvcr100.dll 兩個檔案放到和 SMILExtract_Release.exe 相同位置 : D:\Opensmile\bin\Win32
     
 3. Command Line
    切換到 D 槽 -  cd /d d:\
