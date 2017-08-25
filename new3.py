@@ -1,4 +1,4 @@
-# each file(*.txt) last line add number
+# get each file(*.txt) Emotion
 import os
 import types
 # import string
