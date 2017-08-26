@@ -33,14 +33,15 @@
 5. Command Line
    切換到 HW2 目錄 -  cd D:\HW2
    
-6. 編輯 python 檔 ( python 檔位置在 D:\HW2 ，test.py 和 data.py 和 new1.py 和 new2.py 和 new3.py 和 new4.py 和 new5.py 也在相同的目錄 ) ，擷取最後一行的資料
+6. 編輯 python 檔 ( python 檔位置在 D:\HW2 ，test.py 和 data.py 和 new1.py 和 new2.py 和 new3.py 和 new4.py 和 new5.py 和 new6.py 和 new7.py也在相同的目錄 ) ，擷取最後一行的資料
    -ten_fold.py 和 five_fold.py
    
 7. 執行 python 檔
    -ten_fold.py 和 five_fold.py
    執行 ten_fold.py 在 D:\10_fold 目錄底下產生 train_1~10.txt 和 test_1~10.txt
    執行 five_fold.py 在 D:\5_fold 目錄底下產生 train_1~5.txt 和 test_1~5.txt
-   
+   ( check_file.py 也在 D:\5_fold 目錄底下 )
+   
 8. 在位置 : D:\LibSVM\libsvm-3.22\windows 目錄底下執行 svm
    - 必須把 train_1~10.txt 和 test_1~10.txt 搬到 D:\LibSVM\libsvm-3.22\windows 目錄底下
      然後把 train_1~10.txt 和 test_1~10.txt 分別改名成 train.txt 和 test.txt ，為了後面 Command Line 執行方便
