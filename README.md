@@ -43,6 +43,19 @@
    執行 five_fold.py 在 D:\5_fold 目錄底下產生 train_1~5.txt 和 test_1~5.txt
    
 8. 在位置 : D:\LibSVM\libsvm-3.22\windows 目錄底下執行 svm
+   - 必須把 train_1~10.txt 和 test_1~10.txt 搬到 D:\LibSVM\libsvm-3.22\windows 目錄底下
+     然後把 train_1~10.txt 和 test_1~10.txt 分別改名成 train.txt 和 test.txt ，為了後面 Command Line 執行方便
+     還有把 D:\LibSVM\libsvm-3.22\tools 目錄底下的 grid.py 搬到 D:\LibSVM\libsvm-3.22\windows 目錄底下
+     
+9. Command Line
+svm-scale.exe -s scale train.txt > train.scale
+svm-scale.exe -r scale test.txt > test.scale
+python grid.py train.scale
+svm-train.exe -b 1 -c 2.0 -g 0.125 train.scale
+svm-predict.exe -b 1 train.scale train.scale.model Result_train.txt > Accuracy_train.txt
+svm-predict.exe -b 1 test.scale train.scale.model Result_test.txt > Accuracy_test.txt
+
+※第4行的參數 (-c 2.0 -g 0.125) 由第3行的執行結果填入。
 
 ## Learned
 1. windows command 移除檔案 - del *.txt
