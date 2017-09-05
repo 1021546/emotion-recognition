@@ -53,7 +53,7 @@ def combineList(inputList,inputName):
             # text_file.close()
     # return
 
-# def generate_text(inputData,inputName):
+# def generate_test(inputData,inputName):
     # text_file = open("D:/10_fold"+"/test_"+get_speaker(inputName[0:2])+".txt", "a")
     # text_file.write(inputData + "\n")
     # text_file.close()
@@ -127,7 +127,7 @@ for filename in os.listdir('.'):
         five_part(file_context,filename)
         
         # generate_train(file_context,filename)
-        # generate_text(file_context,filename)
+        # generate_test(file_context,filename)
         # print file_context
         # file_data.append(file_context)
         # print(get_speaker(filename[0:2]))
