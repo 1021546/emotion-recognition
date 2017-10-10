@@ -2,6 +2,7 @@
 
 ## Reference website
     - http://www.lai18.com/content/9363802.html
+    - http://ntu.csie.org/~piaip/svm/svm_tutorial.html#
 
 ## Steps
 1. Download Corpus
