@@ -3,6 +3,7 @@
 ## Reference website
     - http://www.lai18.com/content/9363802.html
     - http://ntu.csie.org/~piaip/svm/svm_tutorial.html#
+    - https://sls.weco.net/blog/hornacik/01-jan-2009/12026
 
 ## Steps
 1. Download Corpus
