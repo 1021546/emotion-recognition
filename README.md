@@ -62,5 +62,13 @@ svm-predict.exe -b 1 test.scale train.scale.model Result_test.txt > Accuracy_tes
 
 ※第4行的參數 (-c 2.0 -g 0.125) 由第3行的執行結果填入。
 
+## Problem
+在跑 python grid.py train.scale 時，出現這個訊息'gnuplot executable not found'
+參考網站:
+http://blog.sina.com.cn/s/blog_4aabc3cf01000a7m.html
+http://blog.csdn.net/dxy_1110/article/details/43851415
+下載網站:
+http://www.gnuplot.info/
+
 ## Learned
 1. windows command 移除檔案 - del *.txt
